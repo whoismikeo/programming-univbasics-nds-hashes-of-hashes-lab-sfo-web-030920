@@ -18,12 +18,12 @@ PORTION_2 = {
   label: "Order"
 }
 # 
-# PORTION_3 = {
-#   label: "Family",
-#   sub_category: {
-#     label: "Genus",
-#   }
-# }
+PORTION_3 = {
+  label: "Family",
+  sub_category: {
+    label: "Genus",
+  }
+}
 # 
 # PORTION_4 = {
 #   label: "Species",
@@ -43,5 +43,6 @@ def naming_system
   # HoH all the way to Species!
   bigHash = PORTION_1
   bigHash[:sub_category][:sub_category][:sub_category] = PORTION_2
+  bigHash[:sub_category][:sub_category][:sub_category][:sub_category][:sub_category] = PORTION_3
   return bigHash
 end
