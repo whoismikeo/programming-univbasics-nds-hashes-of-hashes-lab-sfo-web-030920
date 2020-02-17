@@ -43,4 +43,5 @@ def naming_system
   # HoH all the way to Species!
   bigHash = PORTION_1
   bigHash[:sub_category][:sub_category][:sub_category] = PORTION_2
+  return bigHash
 end
