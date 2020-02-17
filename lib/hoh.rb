@@ -44,5 +44,6 @@ def naming_system
   bigHash = PORTION_1
   bigHash[:sub_category][:sub_category][:sub_category] = PORTION_2
   bigHash[:sub_category][:sub_category][:sub_category][:sub_category] = PORTION_3
+  bigHashbigHash[:sub_category][:sub_category][:sub_category][:sub_category][:sub_category] = PORTION_4
   return bigHash
 end
